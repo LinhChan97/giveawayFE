@@ -3,6 +3,7 @@ import { Router, ActivatedRouteSnapshot, NavigationEnd, NavigationError } from '
 
 import { JhiLanguageHelper, LoginModalService } from 'app/core';
 import { NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
+import {TestLoginModalComponent} from 'app/shared';
 
 @Component({
   selector: 'test-main',
@@ -35,5 +36,9 @@ export class TestMainComponent implements OnInit {
 
   login() {
     this.modalRef = this.loginModalService.open();
+  }
+
+  signup() {
+    this.modalRef = this.loginModalService.register();
   }
 }

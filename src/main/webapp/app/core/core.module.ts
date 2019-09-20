@@ -6,9 +6,11 @@ import locale from '@angular/common/locales/en';
 
 import { NgbDateAdapter } from '@ng-bootstrap/ng-bootstrap';
 import { NgbDateMomentAdapter } from 'app/shared/util/datepicker-adapter';
+import { RegisterComponent } from './register/register.component';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
-  imports: [HttpClientModule],
+  imports: [HttpClientModule, ReactiveFormsModule],
   exports: [],
   declarations: [],
   providers: [
