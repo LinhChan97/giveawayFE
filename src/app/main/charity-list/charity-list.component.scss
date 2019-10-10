@@ -1,0 +1,19 @@
+.panelContainer {
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0;
+  position: relative;
+  max-width: 960px;
+  margin: auto;
+  height: 706px;
+  .panel {
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+    color: #fff;
+  }
+}
