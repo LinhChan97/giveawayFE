@@ -1,0 +1,14 @@
+<hr>
+<div class="row-fluid mx-auto text-center">
+  <h6 style="font-size:28px">Support any charity with an online drive for brand-new items they need</h6>
+
+  <div class="panelContainer" style="height: 400px;">
+    <div class="panel" style="height: 176px;" *ngFor="let charity of charities" [ngStyle]="{background: 'url(' + charity.image + ')'}">
+      <div class="panelPane">
+        <div class="panelTitle">{{charity.name}}
+        </div>
+      </div>
+      <div class="panelTitleExtended"><p class="desc">{{charity.description}}</p><a class="hoverLearn" href="/food-drive-ideas" title="Food Drive Ideas">Learn More</a></div>
+    </div>
+  </div>
+</div>

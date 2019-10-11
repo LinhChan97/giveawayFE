@@ -1,0 +1,92 @@
+hr {
+  border-top: 1px solid #d3edf0;
+  border-bottom: 1px solid #fff;
+}
+
+p.homePageText {
+  font-size: 17px;
+  color: #62318a;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+a.tealLink {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  border-radius: 12px;
+  background: #22a5b8;
+  border: none;
+  padding: 15px 20px;
+  margin: 10px 20px;
+  line-height: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Raleway';
+  font-style: normal;
+}
+
+div.stepPanels {
+  background: url('../../../assets/images/dots_lg_full.gif') left top no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-top: 24px;
+  display: inline-block;
+  width: 100%;
+}
+
+div.stepPanels h3 {
+  margin-top: -44px;
+  background: #fff;
+  vertical-align: top;
+  display: inline-block;
+  color: #62318a;
+  clear: both;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+}
+
+div.stepPanels span.count {
+  font-family: 'Open Sans', sans-serif;
+  color: #22a5b8 !important;
+  font-size: 40px;
+  display: block;
+  clear: right;
+  margin-bottom: 18px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid #2d1f3c;
+  padding: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  .row-fluid {
+    width: 100%;
+  }
+
+  .row-fluid .span3 {
+    width: 22%;
+  }
+  .row-fluid [class*="span"] {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: contain;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.127659574%;
+    *margin-left: 2.0744680846383%;
+  }
+}
+
